@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "tec-api-node",
+  "version": "1.0.0",
+  "description": "API usando Node e Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielG9z/tec-api-node.git"
+  },
+  "author": "Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielG9z/tec-api-node/issues"
+  },
+  "homepage": "https://github.com/GabrielG9z/tec-api-node#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
