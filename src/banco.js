@@ -1,11 +1,17 @@
 import mysql from 'mysql2';
 
 const conexao = mysql.createConnection({
-    host: 'localhost',
+    //Conexão local
+    
+    /* host: 'localhost',
     user: 'root',
     password: '',
-    database: 'escola'
-});
+    database: 'escola'*/
+    host: 'srv28.prodns.com.br',
+    user: 'webmaio1_g9zass',
+    password: 'W!Dq(Of8dNLS',
+    database: 'webmaio1_bdescola2'
+}); 
 
 // Conectando ao banco de dados
 
@@ -15,7 +21,7 @@ conexao.connect(erro => {
     if(erro) {
         console.error(`Erro ao conectar: ${erro.message}`);
     } else {
-        console.log(`Banco de dados conectado com sucesso!`);
+        console.log(`Banco conectado em: ${conexao.config.host}`);
     }
 })
 
