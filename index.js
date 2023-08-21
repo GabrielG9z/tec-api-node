@@ -28,7 +28,7 @@ app.listen(porta,() => {
 
 //Rota (endpoint) para a raiz da API.
 app.get('/', (req,res) => {
-    res.send(`<h1> É um dia lindo para aprender sobre APIs </h1>`);
+    res.send(`<h2> É um dia lindo para aprender sobre APIs, aqui na Mitre... </h2>`);
 });
 
 //Rota (endpoint)
